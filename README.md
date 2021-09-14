@@ -1,0 +1,1 @@
+# kafa server with protocol SASL_PLAINTEXT
