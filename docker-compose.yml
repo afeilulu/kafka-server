@@ -19,7 +19,7 @@ services:
       - 29092:29092
     environment:
       - "TZ=Asia/Shanghai"
-      - KAFKA_LOG.RETENTION.HOURS=1440
+      - KAFKA_LOG_RETENTION_HOURS=1440
       - KAFKA_LOG_DIRS=/kafka/KafkaLog
       - KAFKA_ZOOKEEPER_CONNECT=internal_ip_address:2181
       - KAFKA_ADVERTISED_LISTENERS=SASL_PLAINTEXT://external_ip_address:9092
