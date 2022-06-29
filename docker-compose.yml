@@ -6,6 +6,7 @@ services:
       - 2181:2181
     environment:
       - ZOO_MY_ID=1
+      - "TZ=Asia/Shanghai"
     volumes:
       - /data/kafka/data/zookeeper/data:/data
       - /data/kafka/data/zookeeper/log:/datalog
